@@ -362,7 +362,7 @@ body{
     background-color: rgb(110, 173, 110);
     left: 10px;
     top: 10px;
-    animation: blink 1s ease-in-out forwards;
+    animation: blink 2s ease-in-out forwards;
     animation-iteration-count: infinite;
 }
 @keyframes blink {
@@ -444,7 +444,7 @@ progress[value] {
 }
 progress::-webkit-progress-value {
     background-color: #33b27b;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 progress::-webkit-progress-bar {
     background-color: #e0e0e0;
@@ -1072,7 +1072,6 @@ progress::-webkit-progress-bar {
 }
 
 
-/* MEDIA QUERY  FOR TABLET VIEW*/
 @media (max-width: 768px) and (min-width: 577px){
     body, html{
         padding: 0;
@@ -1189,7 +1188,7 @@ progress::-webkit-progress-bar {
 
 /* MEDIA QUERY  FOR LARGER TABLET VIEW*/
 
-@media (max-width: 1024px) and (min-width: 769px){
+@media (max-width: 1024px) and (min-width: 748px){
     *,
 *::before,
 *::after {
