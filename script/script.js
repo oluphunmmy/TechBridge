@@ -52,3 +52,12 @@
             console.log(myName);
         }
         testFunction()
+
+        const greeting = async ()=>{
+            try{
+                page[0].textContent = "...loading"
+                page[0].style="text-align:center"
+                yourName = await newName
+                
+            }
+        }
