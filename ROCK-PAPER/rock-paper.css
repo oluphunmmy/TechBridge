@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: #FFCBA4;
+  }
+  button:active{
+    background-color: #FF7F50;
+    color: white;
+  }
+
+  .round-indicator {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+  }
+
+  .hands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .hands img {
+    width: 120px;
+    margin: 0 20px;
+  }
+
+  .scores, .result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .winner {
+    font-weight: bold;
+    margin-top: 20px;
+    color: green;
+  }
+  marquee{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+/* This is mobile view screen size */
+  @media screen and (max-width: 600px) {
+    body,html{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .container {
+        margin-top: 10px;
+        padding: 20px;
+        border: none;
+      }
+      .container .click-here{
+        font-size: 18px;
+      }
+  }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create a new account</h2>
+        <p> It's quick and easy</p>
+        <form>
+            <input type="text" name="First_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Surname" required><br><br>
+            <label for="dob">Date of birth</label><br>
+            <select name="day" required>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+            </select>
+            <select name="month" required>
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>   
+            </select>
+            <select name="year" required>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>   
+            </select><br><br>
+            <label for="gender">Gender</label><br>
+            <div>
+                <input type="radio" name="gender" value="female" required> Female
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="male" required> Custom
+            </div>
+            <input type="tel" name="contact" placeholder="Mobile Number or Email Address"required>
+            <input type="password" name="password" placeholder="New password"required>
+            <button type="submit" class="btn">Sign-up</button>
+        </form>
+        <div class="footer"><a href="#">Already have an account?</a>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="icon" href="https://media.istockphoto.com/id/2151217329/vector/a-boy-wearing-a-hard-hat-overalls-with-suspenders-or-braces-smiling-showing-a-v-sign-hand.jpg?s=2048x2048&w=is&k=20&c=xM0c5f31vArb7fx4yRUnyXkkv-zSEPUmalOEBieEsEI=" type="image/x-icon">
+  <link rel="stylesheet" href="./rock-paper.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <p class="click-here">Click a button below to make your choice:</p>
+    
+        <p class="round-indicator" id="roundIndicator">Round 1 of 5</p>
+    
+        <button class="button1" data-choice="rock">Rock</button>
+        <button class="button1" data-choice="paper">Paper</button>
+        <button class="button1" data-choice="scissors">Scissors</button>
+        <button id="resetButton" style="display: none;">Reset Game</button>
+    
+        <div class="hands">
+          <div>
+            <p>Matthew's Choice:</p>
+            <img id="matthewHand" src="https://via.placeholder.com/120?" alt="kemi choice">
+          </div>
+          <div>
+            <p>Obi's Choice:</p>
+            <img id="obiHand" src="https://via.placeholder.com/120?" alt="Oluphunmmy choice">
+          </div>
+        </div>
+    
+        <div class="scores">
+          <p>Matthew Score: <span id="KemiScore">0</span></p>
+          <p>Obi Score: <span id="Oluphunmmy">0</span></p>
+        </div>
+    
+        <div class="result">
+          <p id="roundResult"></p>
+          <p class="winner" id="finalWinner"></p>
+        </div>
+        <marquee behavior="" direction="left">This game is an <mark>IDEAS PROGRAM (Innovation, Development and Effectiveness in the Aquisition of Skills)</mark>. Feel free and enjoy your time on the game </marquee>
+      </div>
+    
+
+  <script src="./rock-paper.js">
+   
+  </script>
+</body>
+</html>

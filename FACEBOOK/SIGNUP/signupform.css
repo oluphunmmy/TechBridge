@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    width: 100%;
+    background-color: rgb(227, 232, 233);
+    text-align: center;
+    margin-top: 1%;
+    overflow-y:visible;
+    height: 100vh;
+    position: relative;
+}
+.full-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fbk{
+    font-size: 70px;
+    color: #316FF6;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-family: klavika;
+}
+.fullbody{
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    margin: auto 35%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.heading1{
+    display: block;
+}
+.heading1 h2{
+    font-size: 29px;
+    color: #1c1e21;
+}
+.heading1 h5{
+    font-size: 15px;
+    margin-top: 4px;
+    color: #606770;
+}
+.line1 hr{
+    width: 500px;
+    margin-left: -20.9px;
+    margin-top: 12px;
+    border-color: rgb(255, 255, 255);
+}
+.container1{
+    margin: auto;
+    width: 100%;
+}
+.textbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    text-align: left;
+    margin-top: 20px;
+}
+.text1{
+    width: 100%;
+    height:32px;
+    outline: rgb(65, 176, 240);
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 6px;
+    margin-right: 8px;
+    font-size: 20px;
+}
+.text1::placeholder{
+    font-size: 18px;
+    padding: 2px;
+    color: rgb(179, 179, 179);
+}
+.birth, .gender1{
+    text-align: left;
+    margin-top: 18px;
+}
+.dob, .dob2{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.fas{
+    padding: 2px 4px;
+    background-color: black;
+    align-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.dob .date1, .dob2 .gender2{
+    color: rgb(129, 129, 129);
+}
+.dob .image1, .dob2{
+    margin-left: 4px;
+}
+.option1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    
+}
+ .seventeen, .oct1, .year1{
+    height: 40px;
+    width: 100%;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    outline: none;
+}
+
+.gender3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.female, .male, .custom{
+    border: 1px solid rgb(179, 179, 179);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.male, .custom{
+    margin-left: 7px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5); 
+   /* -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);*/
+    margin-right: 8px;
+}
+.lastinput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.lastinput input{
+    text-align: left;
+    margin-top: 10px;
+    border: 1px solid rgb(179, 179, 179);
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.lastinput input::placeholder{
+    font-size: 18px;
+    padding-left: 5px;
+}
+.people{
+    text-align: left;
+}
+ .info{
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    line-height: 22px;
+    font-size: 15px;
+    color: rgb(66, 64, 64);
+    
+}
+ .click{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 425px;
+    line-height: 22px;
+    font-size: 15px;
+    color: rgb(66, 64, 64);
+}
+span{
+    color: rgb(68, 104, 224);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.final button{
+    padding: 6px 60px;
+    border: none;
+    background-color: rgb(1, 151, 1);
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    font-size: 25px;
+}
+.final button:hover{
+    border: 3px solid #1877f2;
+}
+.final button:active{
+    opacity: 0.8;
+    color: black;
+}
+.final h4{
+    color: #1877f2;
+    font-weight: 200;
+    cursor: pointer;
+    font-size: 20px;
+}
+.final h4 a:active{
+    color: red;
+}
+h4 a{
+    text-decoration: none;
+    color: #316FF6;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin-top: 50px;   
+}
+marquee{
+    text-align: center;
+    background-color: #1877f2;
+    height: 25px;;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+
+}
+@media screen and (max-width: 576px) {
+    body, html{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden; 
+    }
+    .fbk{
+        font-size: 48px;
+        margin-bottom: 4px;
+    }
+    .fullbody{
+        width: 350px;
+    }
+    .heading1>h2{
+        font-size: 20px;
+    }
+    .heading1>h5{
+        font-size: 15px;
+    }
+    .line1 hr{
+        width: 350px;
+    }
+    .container1{
+        margin: auto;
+        width: 100%;
+    }
+    .textbox{
+        width: 102.8%;
+    }
+    .text1{
+        height:26px;
+        font-size: 16px;
+    }
+    .text1::placeholder{
+        font-size: 16px;
+    }
+    .fas{
+        font-size: 12px;
+    }
+    .female, .male, .custom{
+        height: 38px;
+        font-size: 17px;
+    }
+    input[type="radio"] {
+        transform: scale(1.2); 
+    }
+    .lastinput input{
+        font-size: 20px;
+    }
+    .lastinput input::placeholder{
+        font-size: 17px;
+    }
+    .info, .click{
+        width: 320px;  
+    }
+    .final button{
+        font-size: 20px;
+    }
+    .final button:hover{
+        border: 2px solid #1877f2;
+    }
+    .final h4{
+        font-size: 18px;
+    }
+
+    .footer{
+        display: none;
+    }
+}
